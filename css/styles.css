@@ -67,6 +67,9 @@ color: var(--accent-cl);
 }
 
 .contacts-header{
+font-family: inherit;
+font-weight: 500;
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: inherit;
@@ -76,6 +79,14 @@ text-decoration: none
 .contacts-header:hover,
 .contacts-header:focus {
 color: var(--accent-cl);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .hero {
@@ -103,6 +114,10 @@ color: var(--white);
 background-color: var(--accent-cl);
 }
 
+.features-list {
+  list-style: none;;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -110,6 +125,10 @@ background-color: var(--accent-cl);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--black);
+}
+
+.examples-list {
+  list-style: none;
 }
 
 .examples-title,
@@ -125,6 +144,10 @@ color: var(--black);
 
 .team {
   background-color: var(--section-bg);
+}
+
+.team-list {
+  list-style: none;
 }
 
 .team-title { 
@@ -158,6 +181,10 @@ text-decoration: none;
 color: var(--white) ;
 }
 
+.footer-list {
+  list-style: none;
+}
+
 /* css портфолио */
 
 .btn-portfolio {
@@ -173,6 +200,14 @@ background-color: var(--section-bg);
 .btn-portfolio:focus {
 color: var(--white);
 background-color: var(--accent-cl);
+}
+
+.btn-list {
+  list-style: none;
+}
+
+.portfolio-list {
+  list-style: none;
 }
 
 .portfolio-title {
